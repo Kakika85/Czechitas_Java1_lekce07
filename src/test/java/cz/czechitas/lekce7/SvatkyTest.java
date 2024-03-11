@@ -89,7 +89,6 @@ class SvatkyTest {
 
         Assertions.assertTrue(svatky.jeVSeznamu("Anežka"));
         Assertions.assertEquals(MonthDay.of(3, 2), svatky.vratKdyMaSvatek("Anežka"));
-
     }
 
     /**
